@@ -1,3 +1,4 @@
+import StudyChecklist from "../../components/StudyChecklist";
 import { createFileRoute, getRouteApi, useNavigate } from "@tanstack/react-router";
 import { supabase } from "@/integrations/supabase/client";
 
@@ -38,5 +39,6 @@ function Dashboard() {
         </button>
       </div>
     </div>
+    <StudyChecklist />
   );
 }
