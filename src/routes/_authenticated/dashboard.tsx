@@ -37,8 +37,8 @@ function Dashboard() {
         >
           Log out
         </button>
+        <StudyChecklist />
       </div>
     </div>
-    <StudyChecklist />
   );
 }
